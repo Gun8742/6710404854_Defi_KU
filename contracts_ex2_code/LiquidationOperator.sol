@@ -195,6 +195,8 @@ contract LiquidationOperator is IUniswapV2Callee {
 
         uniswapV2Pair_WBTC_USDT = IUniswapV2Pair(uniswapV2Factory.getPair(address(WBTC), address(USDT))); // Pool1
         uniswapV2Pair_WBTC_WETH = IUniswapV2Pair(uniswapV2Factory.getPair(address(WBTC), address(WETH))); // Pool2
+        //debt_USDT = 2000 * 10**6;
+        //debt_USDT = 5000 * 10**6;
         debt_USDT = 10000 * 10**6;
         
         // END TODO
